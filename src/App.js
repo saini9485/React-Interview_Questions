@@ -1,9 +1,10 @@
 // import { AppendCounter } from './components/AppendCounter';
 // import { InterviewCounter } from './components/InterViewCounter';
 // import { Counter } from './components/counter/Counter';
-import { StopWatch } from './components/StopWatch';
+// import { StopWatch } from './components/StopWatch';
 
 import './App.css';
+import { CurrentTime } from './components/CurrentTime';
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       {/* <Counter /> */}
       {/* <InterviewCounter/> */}
       {/* <AppendCounter/> */}
-      <StopWatch/>
+      {/* <StopWatch/> */}
+      <CurrentTime/>
     </div>
 
 
