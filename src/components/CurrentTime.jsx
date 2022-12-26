@@ -16,6 +16,7 @@ const[date, setDate] = useState(currentDate)
     <div>
 <h1>Current Time</h1>
 <h1>{time}</h1>
+<h1>Current Date</h1>
 <h1>{date}</h1>
 
     </div>
