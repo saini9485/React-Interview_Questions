@@ -5,7 +5,7 @@
 import { CurrentTime } from './components/CurrentTime';
 
 import './App.css';
-import { Memoziation } from './components/Memoziation';
+import { UseMemoUsecallBack } from './components/UseMemoUsecallBack';
 
 
 
@@ -17,7 +17,7 @@ function App() {
       {/* <AppendCounter/> */}
       {/* <StopWatch/> */}
       {/* <CurrentTime/> */}
-      <Memoziation/>
+      <UseMemoUsecallBack/>
     </div>
 
 
