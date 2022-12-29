@@ -4,14 +4,11 @@
 // import { StopWatch } from './components/StopWatch';
 // import { CurrentTime } from './components/CurrentTime';
 // import { UseMemoUsecallBack } from './components/UseMemoUsecallBack';
-import { UseMemo } from './components/UseMemo';
+// import { UseMemo } from './components/UseMemo';
+import { Parent } from './useCallBack/Parent';
 
 
 import './App.css';
-
-
-
-
 
 function App() {
   return (
@@ -22,7 +19,8 @@ function App() {
       {/* <StopWatch/> */}
       {/* <CurrentTime/> */}
       {/* <UseMemoUsecallBack/> */}
-      <UseMemo/>
+      {/* <UseMemo/> */}
+      <Parent/>
     </div>
 
 
