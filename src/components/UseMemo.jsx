@@ -26,7 +26,7 @@ const handleCountTwo = () =>{
 const isEven = useMemo(() =>{
   console.log("hhhhh")
   let i=0;
-  while(i<20000000) i++;
+  while(i<200000000) i++;
   return countOne%2===0
  
 },[countOne])
