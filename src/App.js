@@ -2,10 +2,14 @@
 // import { InterviewCounter } from './components/InterViewCounter';
 // import { Counter } from './components/counter/Counter';
 // import { StopWatch } from './components/StopWatch';
-import { CurrentTime } from './components/CurrentTime';
+// import { CurrentTime } from './components/CurrentTime';
+// import { UseMemoUsecallBack } from './components/UseMemoUsecallBack';
+import { UseMemo } from './components/UseMemo';
+
 
 import './App.css';
-import { UseMemoUsecallBack } from './components/UseMemoUsecallBack';
+
+
 
 
 
@@ -17,7 +21,8 @@ function App() {
       {/* <AppendCounter/> */}
       {/* <StopWatch/> */}
       {/* <CurrentTime/> */}
-      <UseMemoUsecallBack/>
+      {/* <UseMemoUsecallBack/> */}
+      <UseMemo/>
     </div>
 
 
