@@ -6,9 +6,11 @@
 // import { UseMemoUsecallBack } from './components/UseMemoUsecallBack';
 // import { UseMemo } from './components/UseMemo';
 // import { Parent } from './useCallBack/Parent';
-import { CounterIncrementD } from './components/counter/counterIncrementD';
+//import { CounterIncrementD } from './components/counter/counterIncrementD';
+import { Timer } from './components/timer';
 
 import './App.css';
+
 
 
 function App() {
@@ -22,7 +24,8 @@ function App() {
       {/* <UseMemoUsecallBack/> */}
       {/* <UseMemo/> */}
       {/* <Parent/> */}
-      <CounterIncrementD/>
+      {/* <CounterIncrementD/> */}
+      <Timer/>
     </div>
 
 
