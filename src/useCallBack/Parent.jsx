@@ -11,7 +11,7 @@ const handleCountOne = () =>{
 
 const fun = useCallback(()=>{
     console.log("Callback")
-},countTwo)
+},[countTwo])
 
   return (
     <div>

@@ -12,13 +12,6 @@ const addRandom = () => {
 }
   const randomM = useMemo(()=> Math.random().toFixed(2),[])
   console.log(randomM)
-   
-
-    
-   
-    
-
-  
 
   return (
     <div>
