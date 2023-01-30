@@ -38,7 +38,7 @@ const isEven = useMemo(() =>{
         memoizaion
       </h1>
       <button onClick = {handleCountOne}>CountOne = {countOne}</button>
-      <span>{isEven?"even":"odd"}</span>
+      <span>{isEven?"Even":"Odd"}</span>
       <button onClick = {handleCountTwo}>CountTwo = {countTwo}</button>
     </div>
   )
