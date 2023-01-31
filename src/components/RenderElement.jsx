@@ -1,4 +1,4 @@
-// renderElementWithoutUseState
+// renderElementWithoutUseState and also functionality implementing 
 
 import React from "react";
 import { useState } from "react";
