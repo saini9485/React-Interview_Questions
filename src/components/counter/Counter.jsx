@@ -4,7 +4,7 @@ export function Counter (){
   const handleCount = () =>{
     setCount(count+1)
     if(count =="10"){
-            setCount("Rajesh Saini 2")
+            setCount("Rajesh Saini ")
     }  
   }
   return(
