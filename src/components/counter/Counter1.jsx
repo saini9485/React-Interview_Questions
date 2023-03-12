@@ -1,12 +1,12 @@
 import React, { useState } from "react"
 export function Counter1 (){
-    const[counter, setCounter] = useState(0)
+    const[counter, setCounter] = useState([0])
 
 const handleIncreament = () =>{
-    setCounter(counter+1)
+    setCounter([...counter, counter[counter.length-1]+1])
 }
 const handleDecreament = () =>{
-    setCounter(counter-1)
+    setCounter([...counter.slice(0, counter.length-1)])
 }
     return (
         <div>
