@@ -8,7 +8,8 @@
 // import { Parent } from './useCallBack/Parent';
 //import { CounterIncrementD } from './components/counter/counterIncrementD';
 //import { Timer } from './components/timer';
-import { RenderElement } from './components/RenderElement';
+// import { RenderElement } from './components/RenderElement
+import { Counter1 } from './components/counter/Counter1';
 
 import './App.css';
 
@@ -28,7 +29,8 @@ function App() {
       {/* <Parent/> */}
       {/* <CounterIncrementD/> */}
       {/* <Timer/> */}
-      <RenderElement/>
+      {/* <RenderElement/> */}
+      <Counter1/>
     </div>
 
 
