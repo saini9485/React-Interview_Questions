@@ -3,10 +3,10 @@ import React, {useState} from "react"
 export  function InterviewCounter (){
   const[count, setCount] = useState(0)
  const Increament = () => {
-   setCount(count+1)
+   setCount(count+2)
  }
  const Decreament= () => {
-  setCount(count-1)
+  setCount(count-2)
 }
 const r = () => {
   setCount(0)
