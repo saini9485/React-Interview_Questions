@@ -6,7 +6,7 @@ export  function InterviewCounter (){
    setCount(count+2)
  }
  const Decreament= () => {
-  setCount(count-2)
+  setCount(count-1)
 }
 const r = () => {
   setCount(0)
