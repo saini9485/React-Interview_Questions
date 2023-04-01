@@ -17,7 +17,7 @@ const r = () => {
         {count}
           </h1>
         <button onClick = {Increament}>Increment</button>
-        <button onClick = {Decreament} disabled = {count==0}>Decreament</button>
+        <button onClick = {Decreament} disabled = {count==10}>Decreament</button>
         <button onClick = {r}>Reset</button>
     
     </div>
