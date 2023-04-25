@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useState } from "react";
 export  function MapCounter() {
   let [count, setCount] = useState(0);
