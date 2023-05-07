@@ -16,6 +16,7 @@ import { ToDo } from './components/ToDo';
 import { ChildToParent } from './components/dataPassing/ChildToParent';
 import { ParentToChild } from './components/dataPassing/ParentToChild';
 import { Slibbling } from './components/dataPassing/Slibbling';
+import { useState } from 'react';
 
 
 
@@ -23,13 +24,14 @@ import { Slibbling } from './components/dataPassing/Slibbling';
 function App() {
 
 // passing data parent to child 
-const name = "Rajesh Saini"
-const age = 23
-
+// const name = "Rajesh Saini"
+// const age = 23
+const [name, setName] = useState("i am in parent ")
 
 
   return (
     <div>
+      <h1>{name}</h1>
       {/* <Counter /> */}
       {/* <InterviewCounter/> */}
       {/* <AppendCounter/> */}
@@ -43,9 +45,10 @@ const age = 23
       {/* <RenderElement/> */}
       {/* <Counter1/> */}
       {/* <ToDo/> */}
-      {/* <ChildToParent/> */}
-      <ParentToChild name = {name} age ={age}/>
-      <Slibbling name = {name}/>
+     
+      {/* <ParentToChild name = {name} age ={age}/>
+      <Slibbling name = {name}/> */}
+       { <ChildToParent name = {name} setName = {setName}/> }
     </div>
 
 

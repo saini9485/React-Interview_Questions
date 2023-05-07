@@ -1,9 +1,10 @@
 import React from "react"
 
-export function ChildToParent (){
+export function ChildToParent ({setName}){
     return (
         <>
-        <h2>child to parent </h2>
+        <h5> child to parent </h5>
+<button onClick={()=> setName("i am coming from child")}>Click</button>
         </>
     )
 }
