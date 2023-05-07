@@ -17,6 +17,7 @@ import { ChildToParent } from './components/dataPassing/ChildToParent';
 import { ParentToChild } from './components/dataPassing/ParentToChild';
 import { Slibbling } from './components/dataPassing/Slibbling';
 import { useState } from 'react';
+import { HandleApi } from './components/dataPassing/HandleApi';
 
 
 
@@ -31,7 +32,7 @@ const [name, setName] = useState("i am in parent ")
 
   return (
     <div>
-      <h1>{name}</h1>
+      {/* <h1>{name}</h1> */}
       {/* <Counter /> */}
       {/* <InterviewCounter/> */}
       {/* <AppendCounter/> */}
@@ -48,7 +49,8 @@ const [name, setName] = useState("i am in parent ")
      
       {/* <ParentToChild name = {name} age ={age}/>
       <Slibbling name = {name}/> */}
-       { <ChildToParent name = {name} setName = {setName}/> }
+       {/* { <ChildToParent name = {name} setName = {setName}/> } */}
+       <HandleApi/>
     </div>
 
 

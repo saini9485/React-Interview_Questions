@@ -1,4 +1,3 @@
-
 import React, { useMemo, useState } from "react"
 
 export function  UseMemo (){
@@ -21,16 +20,13 @@ const handleCountTwo = () =>{
 //   return countOne%2===0
 // }
 
-
 //with memoization 
 const isEven = useMemo(() =>{
   console.log("hhhhh")
   let i=0;
   while(i<200000000) i++;
   return countOne%2===0
- 
 },[countOne])
-
 
   return (
     <div>

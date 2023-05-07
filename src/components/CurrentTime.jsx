@@ -11,7 +11,6 @@ const[date, setDate] = useState(currentDate)
   setTime(currentTime)
 },1000) 
 
-
   return(
     <div>
 <h1>Current Time</h1>
