@@ -12,11 +12,22 @@
 import { Counter1 } from './components/counter/Counter1';
 
 import './App.css';
+import { ToDo } from './components/ToDo';
+import { ChildToParent } from './components/dataPassing/ChildToParent';
+import { ParentToChild } from './components/dataPassing/ParentToChild';
+import { Slibbling } from './components/dataPassing/Slibbling';
 
 
 
 
 function App() {
+
+// passing data parent to child 
+const name = "Rajesh Saini"
+const age = 23
+
+
+
   return (
     <div>
       {/* <Counter /> */}
@@ -30,7 +41,11 @@ function App() {
       {/* <CounterIncrementD/> */}
       {/* <Timer/> */}
       {/* <RenderElement/> */}
-      <Counter1/>
+      {/* <Counter1/> */}
+      {/* <ToDo/> */}
+      {/* <ChildToParent/> */}
+      <ParentToChild name = {name} age ={age}/>
+      <Slibbling name = {name}/>
     </div>
 
 

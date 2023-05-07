@@ -7,6 +7,7 @@ export function AppendCounter() {
     setCount([...count, count[count.length - 1] + 1]);
   };
 
+  
   const handleDecrement = () => {
     setCount([...count.slice(0, count.length - 1)]);
   };
