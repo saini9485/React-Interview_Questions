@@ -18,6 +18,8 @@ import { ParentToChild } from './components/dataPassing/ParentToChild';
 import { Slibbling } from './components/dataPassing/Slibbling';
 import { useState } from 'react';
 import { HandleApi } from './components/dataPassing/HandleApi';
+import { Interview } from './components/Interview';
+import { ChildComponent } from './components/ChildComponent';
 
 
 
@@ -50,7 +52,9 @@ const [name, setName] = useState("i am in parent ")
       {/* <ParentToChild name = {name} age ={age}/>
       <Slibbling name = {name}/> */}
        {/* { <ChildToParent name = {name} setName = {setName}/> } */}
-       <HandleApi/>
+       {/* <HandleApi/> */}
+       <Interview/>
+       
     </div>
 
 
